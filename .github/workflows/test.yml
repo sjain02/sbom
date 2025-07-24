@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: Build
+    name: Push
     runs-on: ubuntu-latest
     env:
       API_URL: 'https://api.integ.inno.cybeats.com'
