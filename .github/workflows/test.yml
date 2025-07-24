@@ -13,7 +13,7 @@ jobs:
         uses: cybeats/sbom-studio-action@v1
         with:
           url: ${{ env.API_URL }}
-          filePath: examples/acme-tools-github-2.4.3-cyclonedx.json 
+          filePath: ./examples/acme-tools-github-2.4.3-cyclonedx.json 
           secretAccessKey: ${{ secrets.SECRETKEY }}  
           accessKey: ${{ secrets.ACCESSKEY }}  
           subType: application  
