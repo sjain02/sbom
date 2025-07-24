@@ -5,7 +5,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      API_URL: 'https://api.integ.inno.cybeats.com/v1'
+      API_URL: 'https://api.integ.inno.cybeats.com'
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
